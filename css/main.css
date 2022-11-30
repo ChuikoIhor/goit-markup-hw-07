@@ -111,11 +111,11 @@
 
 /* our-work */
 
-.our-work-container {
+.our-work {
   text-align: center;
 }
 
-.our-work-title {
+.our-work__title {
   margin-top: 0;
   margin-bottom: 50px;
   vertical-align: Top;
@@ -126,20 +126,20 @@
   line-height: 1.16;
 }
 
-.our-work-list {
+.our-work__list {
   display: flex;
   gap: 30px;
 }
 
-.our-work-item {
+.our-work__item {
   width: 370px;
 }
 
-.our-work-overlay {
+.our-work__overlay {
   position: relative;
 }
 
-.our-work-overlay-text {
+.our-work__text {
   color: var(--primary-white-color);
   background: rgba(47, 48, 58, 0.8);
   font-weight: 700;
